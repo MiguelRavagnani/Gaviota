@@ -55,8 +55,7 @@ include_directories(${LOCAL_INCLUDE_DIRS} ${LOCAL_INCLUDE})
 
 set(SOURCE_FILES
     "${CMAKE_SOURCE_DIR}/gaviota/gaviota.cpp"
-    "${CMAKE_SOURCE_DIR}/gaviota/core/application.cpp"
-    "${CMAKE_SOURCE_DIR}/gaviota/core/managers/log_manager.cpp")
+    "${CMAKE_SOURCE_DIR}/gaviota/core/application.cpp")
 
 add_executable(gaviota ${SOURCE_FILES})
 

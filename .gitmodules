@@ -1,3 +1,6 @@
 [submodule "third_party/spdlog"]
 	path = third_party/spdlog
 	url = https://github.com/gabime/spdlog.git
+[submodule "external/proprietary/LogLady"]
+	path = external/proprietary/LogLady
+	url = git@github.com:MiguelRavagnani/LogLady.git
